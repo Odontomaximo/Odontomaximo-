@@ -15,6 +15,8 @@ footer{display:flex;align-items:center;justify-content:space-between;padding:25p
 @media(max-width:560px){.cards{grid-template-columns:1fr}.hero h1{font-size:38px}.section h2,.about h2,.contact h2{font-size:34px}.quote{font-size:27px}.brand img{width:115px}}
 .hero .btn{background:#25D366 !important;padding:15px 26px;border-radius:7px;font-size:15px;font-weight:700;box-shadow:0 5px 14px rgba(6,31,73,.18);transition:transform .2s ease, box-shadow .2s ease;}
 .hero .btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(6,31,73,.25;}
+
+
 .hero .btn{
   background:#25D366 !important;
   color:#fff;
@@ -30,3 +32,15 @@ footer{display:flex;align-items:center;justify-content:space-between;padding:25p
   box-shadow:0 9px 20px rgba(37,211,102,.32);
 }
 
+.top .btn.small{
+  background:#C9942F !important;
+  color:#fff;
+  border-radius:8px;
+  box-shadow:0 4px 12px rgba(201,148,47,.25);
+}
+
+.top .btn.small:hover{
+  background:#B78325 !important;
+  transform:translateY(-2px);
+  box-shadow:0 7px 16px rgba(201,148,47,.35);
+}
