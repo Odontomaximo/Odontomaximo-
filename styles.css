@@ -103,3 +103,16 @@ header.top a.btn.small:hover {
   transform:translateY(-4px);
   box-shadow:0 12px 30px rgba(6,31,73,.12);
 }
+/* Efeito dos cards de tratamentos */
+.cards article{
+  transition: transform .25s ease,
+              box-shadow .25s ease,
+              border-color .25s ease;
+  cursor: default;
+}
+
+.cards article:hover{
+  transform: translateY(-8px);
+  border-color: #C9942F;
+  box-shadow: 0 14px 30px rgba(6,31,73,.18);
+}
