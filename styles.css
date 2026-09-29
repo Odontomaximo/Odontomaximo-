@@ -85,3 +85,8 @@ header.top a.btn.small:hover {
   transform:translateY(-2px);
   box-shadow:0 7px 16px rgba(201,148,47,.28);
 }
+/* Logo do cabeçalho */
+.top .brand img{
+  width:240px;
+  height:auto;
+}
