@@ -16,7 +16,7 @@ footer{display:flex;align-items:center;justify-content:space-between;padding:25p
 .hero .btn{padding:15px 26px;border-radius:7px;font-size:15px;font-weight:700;box-shadow:0 5px 14px rgba(6,31,73,.18);transition:transform .2s ease, box-shadow .2s ease;}
 .hero .btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(6,31,73,.25;}
 .hero .btn{
-  background:#25D366;
+  background:#25D366 !important;
   color:#fff;
   padding:15px 28px;
   border-radius:10px;
