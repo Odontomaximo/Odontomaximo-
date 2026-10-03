@@ -147,84 +147,28 @@ header.top a.btn.small:hover {
   overflow: hidden;
 }
 
-#tratamentos .cards article img {
-  width: 100% !important;
-  max-width: 100% !important;
-  height: 130px !important;
-  object-fit: cover;
-}
-#tratamentos .cards {
-  display: grid !important;
-  grid-template-columns: repeat(5, 1fr) !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  overflow: visible !important;
-}
-
-#tratamentos .cards article {
-  width: auto !important;
-  min-width: 0 !important;
-  max-width: 100% !important;
-  box-sizing: border-box !important;
-  overflow: hidden !important;
-}
-
-#tratamentos .cards article img {
-  display: block !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: 130px !important;
-  object-fit: cover !important;
-  box-sizing: border-box !important;
-}
-
-/* AJUSTE FINAL DOS 5 CARDS DE TRATAMENTOS */
-
-#tratamentos .cards {
-  display: grid !important;
-  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
-  gap: 18px !important;
-  width: 100% !important;
-}
-
-#tratamentos .cards article {
-  width: auto !important;
-  min-width: 0 !important;
-  max-width: none !important;
-  overflow: hidden !important;
-}
-
-#tratamentos .cards article img {
-  display: block !important;
-  width: 100% !important;
-  height: 130px !important;
-  object-fit: cover !important;
-}
-/* TAMANHO DAS IMAGENS DOS TRATAMENTOS */
-
-#tratamentos .cards article img {
-    width: 100% !important;
-    height: 180px !important;
-    object-fit: cover !important;
-    display: block !important;
-}
-/* 5 CARDS DE TRATAMENTOS LADO A LADO */
+/* CARDS DOS TRATAMENTOS */
 
 #tratamentos .cards {
     display: grid !important;
     grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
     gap: 18px !important;
     width: 100% !important;
+    max-width: 100% !important;
 }
 
 #tratamentos .cards article {
     width: auto !important;
     min-width: 0 !important;
     max-width: none !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
 }
 
 #tratamentos .cards article img {
+    display: block !important;
     width: 100% !important;
+    max-width: 100% !important;
     height: 130px !important;
     object-fit: cover !important;
 }
