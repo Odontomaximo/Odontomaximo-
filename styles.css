@@ -138,3 +138,18 @@ header.top a.btn.small:hover {
   border-radius: 8px;
   margin-bottom: 18px;
 }
+#tratamentos .cards {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+#tratamentos .cards article {
+  min-width: 0;
+  overflow: hidden;
+}
+
+#tratamentos .cards article img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 130px !important;
+  object-fit: cover;
+}
