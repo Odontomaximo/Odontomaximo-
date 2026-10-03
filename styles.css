@@ -200,3 +200,11 @@ header.top a.btn.small:hover {
   height: 130px !important;
   object-fit: cover !important;
 }
+/* TAMANHO DAS IMAGENS DOS TRATAMENTOS */
+
+#tratamentos .cards article img {
+    width: 100% !important;
+    height: 180px !important;
+    object-fit: cover !important;
+    display: block !important;
+}
