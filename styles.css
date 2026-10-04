@@ -118,3 +118,43 @@ header.top a.btn.small:hover {
     object-fit: cover !important;
 }
 
+/* CORRECAO FINAL DOS CARDS DE TRATAMENTOS */
+
+#tratamentos {
+    overflow: hidden;
+}
+
+#tratamentos .cards {
+    display: grid !important;
+    grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+    gap: 18px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+#tratamentos .cards article {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+#tratamentos .cards article img {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 130px !important;
+    object-fit: cover !important;
+}
+
+@media (max-width: 900px) {
+    #tratamentos .cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+}
+
+@media (max-width: 560px) {
+    #tratamentos .cards {
+        grid-template-columns: 1fr !important;
+    }
+}
