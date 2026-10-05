@@ -90,7 +90,14 @@ header.top a.btn.small:hover {
   width:240px;
   height:auto;
 }
+/* CORREÇÃO DOS CARDS DE TRATAMENTOS */
 
+#tratamentos .cards article img {
+    display: block !important;
+    width: 100% !important;
+    height: 180px !important;
+    object-fit: cover !important;
+}
 
 
 
