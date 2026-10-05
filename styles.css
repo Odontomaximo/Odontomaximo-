@@ -117,7 +117,7 @@ header.top a.btn.small:hover {
     object-fit: cover !important;
 }
 
-/* CORRECAO FINAL DOS CARDS DE TRATAMENTOS */
+/* CORREÇÃO FINAL DOS CARDS DE TRATAMENTOS */
 
 #tratamentos {
     overflow: hidden;
@@ -128,7 +128,6 @@ header.top a.btn.small:hover {
     grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
     gap: 18px !important;
     width: 100% !important;
-    max-width: 100% !important;
 }
 
 #tratamentos .cards article {
