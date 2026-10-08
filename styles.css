@@ -98,7 +98,9 @@ header.top a.btn.small:hover {
     height: 180px !important;
     object-fit: cover !important;
 }
-
+#tratamentos .cards article img {
+  height: 180px !important;
+}
 
 
     
