@@ -98,13 +98,7 @@ header.top a.btn.small:hover {
     height: 180px !important;
     object-fit: cover !important;
 }
-#tratamentos .cards article img {
-  display: block !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: 180px !important;
-  object-fit: cover !important;
-}
+
 
 
     
